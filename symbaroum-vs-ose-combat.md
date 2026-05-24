@@ -80,15 +80,62 @@ Both use similar exploration turns and encumbrance.
 | Corruption            | No direct (like Sanity/Chaos)    | Mystical risk |
 | Traits (Berserker)    | Fighter multiple attacks         | Ability-based |
 
-## Combat Example (Side-by-Side)
+**✅ File updated:** `Symbaroum_Combat_Rules_vs_OSE.md`
 
-**Symbaroum**: Ogre (Accurate 10) vs Guard (Defense +1): Roll ≤11. Hit! Damage 1d6, Guard soaks 1d4.
+Here's the improved version with a **much more detailed, step-by-step combat example** showing actual rolls, modifiers, and clear explanations:
 
-**OSE**: Fighter (THAC0 19) vs AC 4: Roll 15+ to hit. Damage 1d8.
+```markdown
+# Symbaroum Combat Rules: Compared to OSE (Old-School Essentials)
+
+... (previous sections remain unchanged) ...
+
+## Detailed Combat Example (Side-by-Side)
+
+**Scenario**: An ogre warrior (player character) with a long staff fights a heavily armored guard in a narrow corridor.
+
+### Symbaroum Example
+
+**Stats**:
+- Ogre: Accurate 10, Quick 11, Strong 15, Defense 6, Robust (ignores 1D4 damage), Staff (1D6 damage, Long quality).
+- Guard: Accurate 13, Defense +2 (from shield + armor), Armor 1D6 soak.
+
+**Round 1**:
+1. **Initiative**: Both have Quick 11 → Tie broken by Vigilant. Guard has higher Vigilant → Guard acts first.
+2. **Ogre's Free Attack** (Long weapon): Ogre rolls 1d20 = **8** ≤ Accurate 10 (+1 Long) = **Hit!**
+   - Damage: 1D6 = **5** + Robust bonus 1D4 = **3** → Total 8 damage.
+   - Guard soaks with Armor 1D6 = **4** → Net **4 damage** to Guard's Toughness.
+3. **Guard attacks**: Ogre rolls Defense 1d20 = **9** (needs ≤6 after -3 from Guard's Accurate 13) → **Miss!**
+   - Guard hits for 1D8 = **6**. Ogre's Robust soaks 1D4 = **2** → Net **4 damage**.
+
+**Round 2**:
+- Ogre uses **Confusion** mystical power (Resolute roll) → Succeeds, paralyzing the Guard.
+- Ogre smashes with staff: Automatic advantage vs paralyzed foe → Big hit!
+
+**Outcome**: The fight is fast, swingy, and deadly. Armor soaks help, but one bad Defense roll can end you.
+
+---
+
+### OSE Equivalent Example (B/X Style)
+
+**Stats**:
+- Fighter (Level 2): THAC0 19, AC 4 (chain + shield), 1D8 damage.
+- Guard: AC 4, HD 2, 1D8 damage.
+
+**Round 1** (1d6 Initiative: Guard wins):
+1. Guard attacks: Rolls 1d20 = **15** → Hits AC 4 (THAC0 19 needs 15+).
+   - Damage 1D8 = **6**.
+2. Fighter attacks: Rolls 1d20 = **17** → Hits AC 4.
+   - Damage 1D8 = **5**.
+
+**Key Contrast**:
+- **Symbaroum**: Active Defense roll + variable armor soak makes every hit uncertain. Long weapons give tactical reach.
+- **OSE**: Static AC + straightforward damage. More predictable but still deadly.
+
+**Symbaroum feels more "active"** — you roll to defend yourself every time you're attacked, and armor can completely negate hits. OSE is faster to resolve but relies more on pre-calculated AC and THAC0.
 
 ## Tips for OSE Players in Symbaroum
 
-- **Resource Management**: Same as OSE.
-- **Avoid Fair Fights**: Use terrain and clever tactics.
-- **Narrative First**: Descriptions can grant bonuses.
-- **Lethality**: Both punish mistakes.
+- Treat **Accurate** like your attack bonus / THAC0.
+- **Defense** is like rolling a saving throw to avoid being hit.
+- **Armor soak** replaces OSE's static AC — it's more cinematic and swingy.
+- Use your **2 Actions** creatively (Move + Attack, Attack + Power, etc.).
