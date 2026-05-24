@@ -1,96 +1,84 @@
 # Symbaroum Combat Rules: An OSR D&D Player's Guide
 
-Welcome, fellow OSR traveler! If you're coming from old-school D&D (think OD&D, Basic/Expert, or even AD&D), Symbaroum's combat will feel familiar in its lethality, tactical simplicity, and emphasis on player skill over character builds. No complex grids, no endless modifiers—just fast, deadly scraps where positioning, resource management, and smart choices matter. It's narrative-first, like a refined B/X D&D with a dark fantasy twist.
+Welcome, fellow OSR traveler! If you're coming from old-school D&D (OD&D, Basic/Expert, AD&D, or clones like Swords & Wizardry), Symbaroum's combat will feel **familiar yet refreshingly streamlined**. It shares the same lethal, tactical, player-driven spirit: no battle mats, deadly consequences, and emphasis on clever description over mechanical crunch.
 
-Think of it as **"The Black Hack" meets Symbaroum's gritty world**: attribute-based rolls, deadly damage, and monsters that hit hard. No classes with 20 levels of fiddly powers here—combat is quick and punishing.
+**Core Contrast**: 
+- Like B/X D&D, combat is fast and dangerous. 
+- Unlike modern D&D 5e (bounded accuracy, lots of bonuses), it's attribute-driven with "roll under" resolution.
+- Think **The Black Hack** or **Into the Odd** meets gritty dark fantasy.
 
 ## Core Philosophy (OSR Style)
-- **Player Agency**: Describe what you do. The GM adjudicates. Rolls resolve uncertainty.
-- **Lethality**: Fights are dangerous. Armor helps, but one bad roll can drop you.
-- **Narrative Focus**: Combat flows like a story, not a wargame. Use the environment!
-- **No GM Rolls**: Players roll for everything (attacks, defenses, etc.). GM describes NPC actions and sets difficulties.
+- **Player Agency**: Describe your actions narratively. GM adjudicates (just like "rulings not rules" in OD&D).
+- **Lethality**: Fights can end quickly. No heroic HP bloat.
+- **Narrative Focus**: Environment, positioning, and improvisation matter more than rules.
+- **No GM Rolls**: Players roll *all* dice (attacks, defenses). GM sets target numbers and describes outcomes. Huge time-saver compared to GM rolling for every monster.
 
-## Key Attributes for Combat
-Symbaroum uses 8 attributes (5-15 range). Relevant ones:
-- **Accurate**: To hit with weapons (like your to-hit roll).
-- **Quick**: Initiative and dodging.
-- **Strong**: Damage bonus potential, carrying capacity.
-- **Vigilant**: Spotting ambushes, ranged awareness.
-- **Defense**: Your "AC" equivalent (reactive).
+## Key Attributes vs. D&D Equivalents
+Symbaroum uses 8 attributes (5–15). Combat-relevant ones:
+- **Accurate** → To-hit roll (like THAC0 or attack bonus).
+- **Quick** → Initiative + reflexes (similar to Dexterity).
+- **Strong** → Damage bonus & toughness (Strength).
+- **Vigilant** → Perception & ranged awareness (Wisdom/Intelligence).
+- **Defense** → Active "saving throw vs. being hit" (not static AC).
 
-**Success Test**: Roll **1d20 ≤ Attribute** (modified by situation/opponent). Lower is better. Roll equal or under to succeed.
+**Success Test** (core mechanic): Roll **1d20 ≤ Attribute** (modified).  
+**Contrast**: Instead of "roll high to beat AC/THAC0," it's **roll under** (like some old-school skill systems or *The Black Hack*). Modifiers adjust the target number.
 
 ## Turn Order (Initiative)
-1. Compare **Quick** scores. Highest goes first.
-2. Tie? Compare **Vigilant**.
-3. No ties broken by dice—narrative or reroll if needed.
+1. Highest **Quick** acts first.
+2. Ties broken by **Vigilant**.
+3. No random dice roll needed.
 
-**OSR Note**: Simpler than rolling d6 or d20 init every round. Speed matters!
+**OSR Comparison**:
+- Simpler than B/X's d6 group initiative or AD&D's d10 individual rolls.
+- Rewards fast characters (high Dexterity equivalent) without bookkeeping.
 
 ## Combat Round Structure
-Each round, characters get **2 Actions** (like Move + Attack in B/X).
+Each character gets **2 Actions** per round.
+- **Move** (narrative distance).
+- **Attack**.
+- **Ready/Defend**.
+- **Special** (powers, items).
 
-Common Actions:
-- **Move**: Up to your movement (narrative, ~30-40 ft).
-- **Attack**: Roll Accurate (or ability-modified) vs opponent's Defense.
-- **Defend/Ready**: Hold action.
-- **Special**: Use mystical powers, items, etc. (costs 1-2 Actions).
-
-**Free Attacks**: Weapons with **Long** quality let you strike first when closing distance (like a polearm reach attack).
+**Free Attacks**: Long weapons (spears, etc.) get a free strike when enemies close in.  
+**Contrast**: Like polearm reach rules or "set spear vs. charge" in B/X, but baked in.
 
 ## Attacking
-1. **Roll to Hit**: `1d20 ≤ Accurate` (modified by opponent's **Defense**).
-   - Opponent's Defense adds/subtracts (e.g., +2 Defense = you need to roll 2 lower).
-2. **Damage**: Weapon die (e.g., 1d8) + modifiers.
-3. **Armor Reduction**: Opponent rolls armor die (e.g., 1d6) and subtracts from damage.
-4. **Net Damage** to **Toughness** (HP equivalent).
+1. **Roll to Hit**: `1d20 ≤ Accurate` modified by opponent's **Defense**.
+2. On hit: Roll weapon damage.
+3. Opponent rolls **Armor die** and subtracts (soak).
+4. Net damage reduces **Toughness** (HP).
 
-**Example** (from the Quickstart):
-- Ogre with staff (Accurate 10) vs Guard (Defense +1): Roll ≤11.
-- Hit: Staff 1d6 + Robust trait bonus.
-- Guard armor 1d4 absorbs some.
-
-**OSR Parallel**: Like attacking AC, but armor *soaks* damage instead of just blocking hits. Very "gritty realism."
+**OSR Contrast**:
+- No static AC. Opponent's Defense acts as a *negative modifier* to your roll (e.g., +3 Defense = roll 3 lower).
+- Armor **soaks** damage (roll 1d4–1d8) instead of just improving AC. Very "gritty" — chainmail can still let a dagger through.
+- Similar to how some OSR games handle variable armor (e.g., *Knave* or *Mörk Borg*).
 
 ## Defense (Reactive)
-When attacked, roll **1d20 ≤ Defense** (modified by attacker's Accurate).
-- Success: Avoid damage.
-- Failure: Take full hit (then armor soak).
+When attacked: Roll **1d20 ≤ Defense** (modified by attacker's Accurate).  
+Success = no damage taken.
 
-**OSR Note**: Active defense roll makes combat swingy and tense—like saving throws in old D&D, but per attack.
+**OSR Comparison**:
+- This is like an active **Saving Throw vs. Attack** every time you're targeted.
+- Much more swingy and tense than static AC — feels like old-school "roll to avoid" mechanics.
+- Rewards high Dexterity/Defense characters (like a Fighter with good AC in B/X).
 
 ## Damage & Healing
-- **Toughness** = Hit Points. Starts around 10-15.
-- **Pain Threshold**: If damage exceeds this, you're **Dazed** (lose actions, like stunned).
-- Healing: Rest, herbs, or mystical powers. No easy "cure light wounds" spam.
+- **Toughness** = Hit Points (starts low, ~10-15).
+- **Pain Threshold**: Excess damage = **Dazed** (lose actions, like stunned).
+- Healing is slow (rest, herbs, magic). No spammable healing.
 
-**Death**: 0 Toughness = unconscious/dying. Negative = dead. Brutal, like OD&D.
+**Death**: 0 Toughness = dying. Brutal, like OD&D's low HP and instant death at 0.
 
-## Special Rules
-- **Qualities**: Weapons/armor have tags (Long, Flexible, Impeding). Like D&D magic item properties.
-- **Shadow & Corruption**: Mystical stuff risks taint (like sanity or chaos in Warhammer).
-- **Traits/Abilities**: Modify rolls (e.g., Berserker for extra attacks, like a Fighter's multiple attacks).
-- **Swarm/Monsters**: Special traits make big fights chaotic.
+**Contrast**:
+- Armor soak makes combat less "whiff-heavy" than pure to-hit + damage in classic D&D.
+- Pain Threshold adds tactical depth (like morale or stun rules in some OSR games).
+
+## Special Rules & Traits
+- **Weapon Qualities** (Long, etc.): Like magic item properties or special rules in AD&D.
+- **Traits/Abilities**: Modify rolls (Berserker = extra attacks, like Fighter multi-attacks).
+- **Monsters**: Fixed stats that modify *your* rolls. Easy GMing (no monster attack rolls).
+
+**Corruption**: Mystical powers risk taint (like Chaos in *Warhammer* or Sanity in *Call of Cthulhu*).
 
 ## Combat Example (OSR Lens)
-```
-GM: Guard charges! Quick tie—Vigilant says Guard first.
-Player (Ogre): "I ready my long staff for a Free Attack!"
-- Roll Accurate 10 +1 (Long) = ≤11. Hits!
-- Damage: 1d6 + Robust.
-Guard: Armor 1d4 soaks. "You clip him, but his mail holds!"
-
-Guard swings: Player Defense roll vs Accurate.
-Net damage reduces Toughness.
-```
-
-## Tips for OSR Players
-- **Resource Management**: Track ammo, light, fatigue. Davokar is deadly.
-- **Avoid Fair Fights**: Ambush, terrain, alliances—like classic dungeon crawls.
-- **Narrative Over Mechanics**: "I swing from the chandelier!" can grant bonuses.
-- **Monster Stats**: Fixed values modify *your* rolls. Easy GMing.
-- **Scalability**: Low-level feels like Basic D&D; higher with more abilities like AD&D.
-
-This captures the essence from the Quickstart. Combat is fast (resolve in minutes), deadly, and rewards clever play. Grab your d20, enter Davokar, and survive!
-
-*Extracted and adapted from Symbaroum Quickstart sections: Narrative Tutorial, Player’s Rules, and related mechanics.*
