@@ -9,6 +9,29 @@ If you're familiar with **Old-School Essentials (OSE)** — the refined B/X D&D 
 
 **Key Difference**: Symbaroum uses **roll-under** on attributes (1d20 ≤ Attribute). OSE uses **roll-over** THAC0 / Attack Matrix.
 
+## PC Attributes: Symbaroum vs OSE
+
+Symbaroum uses **8 attributes** (rated 5–15). OSE uses the classic **6 abilities** (3–18).
+
+| Symbaroum Attribute | OSE Equivalent          | Primary Combat Role                          | Notes |
+|---------------------|-------------------------|----------------------------------------------|-------|
+| **Accurate**        | Strength / Dexterity    | To-hit with weapons (melee & ranged)        | Direct attack stat. |
+| **Quick**           | Dexterity               | Initiative, movement, dodging                | Stronger initiative focus than OSE Dex. |
+| **Strong**          | Strength / Constitution | Damage bonus, Toughness (HP), carrying       | Combines Str + Con. |
+| **Vigilant**        | Wisdom                  | Perception, spotting ambushes, ties         | Like Wisdom for awareness. |
+| **Resolute**        | Wisdom / Charisma       | Resisting magic, mental effects              | Mental fortitude / saves. |
+| **Discreet**        | Dexterity               | Stealth, evasion                             | Sneaking / hiding. |
+| **Persuasive**      | Charisma                | Social influence, intimidation               | Diplomacy & reactions. |
+| **Cunning**         | Intelligence            | Problem-solving, alchemy, traps              | Knowledge & cleverness. |
+
+**Key Contrasts**:
+- **Fewer but Broader**: Symbaroum folds OSE's six into eight more specialized attributes. Every attribute is useful in combat/exploration (no "dump stats").
+- **No Modifiers**: Symbaroum uses raw attribute scores for rolls (roll-under). OSE converts scores to small modifiers (+0 to +3).
+- **Combat Integration**: Almost all Symbaroum attributes have direct combat applications (Accurate for attack, Quick for init, etc.). OSE relies more on class-based THAC0 and saves.
+- **Balance**: Symbaroum characters feel more competent early on due to higher starting attributes and direct roll-under resolution.
+
+**Example**: An OSE Fighter with high Strength gets attack/damage bonuses. A Symbaroum character with high Accurate gets better to-hit rolls directly.
+
 ## Core Resolution: Symbaroum vs OSE
 
 | Mechanic              | Symbaroum                          | OSE Equivalent                     | Notes |
@@ -22,14 +45,11 @@ If you're familiar with **Old-School Essentials (OSE)** — the refined B/X D&D 
 
 ## Turn Order & Initiative
 
-**Symbaroum**:
-- Compare **Quick** (highest first). Ties broken by **Vigilant**.
-- No random roll — pure attribute comparison.
+**Symbaroum**: Compare **Quick** (highest first). Ties broken by **Vigilant**.
 
-**OSE**:
-- 1d6 per side. Winner acts first.
+**OSE**: 1d6 per side.
 
-**Comparison**: Symbaroum is faster and rewards fast characters (like high Dexterity in OSE), without dice variance.
+**Comparison**: Symbaroum rewards fast characters more directly and removes dice variance.
 
 ## Attacking
 
@@ -39,42 +59,18 @@ If you're familiar with **Old-School Essentials (OSE)** — the refined B/X D&D 
 3. Opponent rolls armor die to soak.
 
 **OSE**:
-1. Roll 1d20 vs THAC0 (or ascending AC).
-2. On hit: Weapon damage (no soak — armor is purely defensive).
-
-**Mapping Table**:
-
-| Symbaroum          | OSE Equivalent                  |
-|--------------------|---------------------------------|
-| Accurate           | THAC0 / Attack Bonus            |
-| Defense            | Negative modifier to attack roll (like high AC) |
-| Armor Soak         | No direct equivalent (armor purely AC) |
-
-**Free Attacks** (Long weapons): Like OSE "set spear vs charge" or polearm reach.
+1. Roll 1d20 vs THAC0.
+2. On hit: Weapon damage.
 
 ## Defense & Damage
 
-**Symbaroum**:
-- Active **Defense** roll when attacked (1d20 ≤ Defense).
-- **Toughness** = HP.
-- **Pain Threshold**: Excess damage = Dazed (like stunned).
+**Symbaroum**: Active **Defense** roll when attacked. **Toughness** = HP. **Pain Threshold** = Dazed on excess damage.
 
-**OSE**:
-- Passive AC.
-- Hit Points.
-- No direct Pain Threshold (some house rules use "death spiral").
-
-**Comparison**: Symbaroum's active defense feels like an "active saving throw vs attack" every round — more swingy and tense than static AC.
+**OSE**: Passive AC. Hit Points.
 
 ## Movement & Exploration
 
-Both systems use similar exploration turns:
-
-| Feature              | Symbaroum                     | OSE                          |
-|----------------------|-------------------------------|------------------------------|
-| Dungeon Movement     | Base rate per turn (slow)     | 120' / turn (exploration)    |
-| Combat Movement      | Up to 1/3 base rate           | Encounter movement (1/3)     |
-| Encumbrance          | Detailed or basic options     | Similar coin/gear tracking   |
+Both use similar exploration turns and encumbrance.
 
 ## Special Rules Comparison
 
@@ -83,21 +79,16 @@ Both systems use similar exploration turns:
 | Long Weapons          | Polearm reach / set spear        | Built-in Free Attack |
 | Corruption            | No direct (like Sanity/Chaos)    | Mystical risk |
 | Traits (Berserker)    | Fighter multiple attacks         | Ability-based |
-| Monster Stats         | Modify player rolls              | Monsters roll attacks |
 
 ## Combat Example (Side-by-Side)
 
-**Symbaroum**:
-- Ogre (Accurate 10) vs Guard (Defense +1): Roll ≤11. Hit!
-- Damage 1d6, Guard soaks 1d4.
+**Symbaroum**: Ogre (Accurate 10) vs Guard (Defense +1): Roll ≤11. Hit! Damage 1d6, Guard soaks 1d4.
 
-**OSE**:
-- Fighter (THAC0 19) vs AC 4: Roll 15+ to hit.
-- Damage 1d8 straight (no soak).
+**OSE**: Fighter (THAC0 19) vs AC 4: Roll 15+ to hit. Damage 1d8.
 
 ## Tips for OSE Players in Symbaroum
 
-- **Resource Management**: Same as OSE — track light, food, fatigue.
-- **Avoid Fair Fights**: Use terrain, ambushes, and clever tactics.
-- **Narrative First**: "I throw sand!" can grant modifiers (like OSE rulings).
-- **Lethality**: Both systems punish mistakes. Play smart!
+- **Resource Management**: Same as OSE.
+- **Avoid Fair Fights**: Use terrain and clever tactics.
+- **Narrative First**: Descriptions can grant bonuses.
+- **Lethality**: Both punish mistakes.
