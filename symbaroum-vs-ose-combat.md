@@ -80,15 +80,6 @@ Both use similar exploration turns and encumbrance.
 | Corruption            | No direct (like Sanity/Chaos)    | Mystical risk |
 | Traits (Berserker)    | Fighter multiple attacks         | Ability-based |
 
-**✅ File updated:** `Symbaroum_Combat_Rules_vs_OSE.md`
-
-Here's the improved version with a **much more detailed, step-by-step combat example** showing actual rolls, modifiers, and clear explanations:
-
-```markdown
-# Symbaroum Combat Rules: Compared to OSE (Old-School Essentials)
-
-... (previous sections remain unchanged) ...
-
 ## Detailed Combat Example (Side-by-Side)
 
 **Scenario**: An ogre warrior (player character) with a long staff fights a heavily armored guard in a narrow corridor.
